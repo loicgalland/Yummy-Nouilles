@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Yummy Noodle",
+    "adress": "185 rue de Lancry ",
+    "city": "75010 Paris",
+    "image": "image/Facade_Yummy_Nouille_1_1_20.png"
+  },
+  {
+    "name": "Yu Noodle My",
+    "adress": "350 rue Saint-Guillaume",
+    "city": "75007 Paris",
+    "image": "image/Facade_Yummy_Nouille_2_1_18.png"
+  },
+  {
+    "name": "Les Yummy Nouilles",
+    "adress": "208 rue au Maire",
+    "city": "75003 Paris",
+    "image": "image/Facade_Yummy_Nouille_3_1_34.png"
+  }
+]
