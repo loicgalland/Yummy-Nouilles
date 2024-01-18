@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import Banner from "@/app/components/Banner";
-import Contact from "../components/Contact";
+import ContactSection from "../components/ContactSection";
 import Logo from "../assets/images/Logo XL.png";
 import AllMeals from '../assets/data/menu.json';
 export default function PageMenu(){
@@ -20,7 +20,7 @@ export default function PageMenu(){
                     </div>
                 ))}
             </div>
-            <Contact/>
+            <ContactSection/>
         </section>
     )
 }

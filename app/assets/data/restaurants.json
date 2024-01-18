@@ -3,18 +3,24 @@
     "name": "Yummy Noodle",
     "adress": "185 rue de Lancry ",
     "city": "75010 Paris",
-    "image": "image/Facade_Yummy_Nouille_1_1_20.png"
+    "image": "image/Facade_Yummy_Nouille_1_1_20.png",
+    "phone": "+331 44 33 55 22",
+    "opening": "Lundi à Dimanche - 12h à 23h"
   },
   {
     "name": "Yu Noodle My",
     "adress": "350 rue Saint-Guillaume",
     "city": "75007 Paris",
-    "image": "image/Facade_Yummy_Nouille_2_1_18.png"
+    "image": "image/Facade_Yummy_Nouille_2_1_18.png",
+    "phone": "+331 44 33 55 22",
+    "opening": "Lundi à Vendredi - 12h à 22h"
   },
   {
     "name": "Les Yummy Nouilles",
     "adress": "208 rue au Maire",
     "city": "75003 Paris",
-    "image": "image/Facade_Yummy_Nouille_3_1_34.png"
+    "image": "image/Facade_Yummy_Nouille_3_1_34.png",
+    "phone": "+331 44 33 55 22",
+    "opening": "Lundi à Dimanche - 12h à 23h"
   }
 ]

@@ -1,4 +1,4 @@
-export default function Contact(){
+export default function ContactSection(){
     return (
         <section className="px-10 text-center mb-10">
             <h2 className="underline decoration-orange-700 decoration-2 underline-offset-4 font-bebas text-2xl text-center mb-10">

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import Banner from "@/app/components/Banner";
 import Cta from "@/app/components/Cta";
-import Contact from "@/app/components/Contact";
+import ContactSection from "@/app/components/ContactSection";
 
 import Logo from "../assets/images/Logo XL.png";
 import Restaurants from "../assets/data/restaurants.json"
@@ -64,7 +64,7 @@ export default function Home() {
                 }
             </div>
         </section>
-        <Contact/>
+        <ContactSection/>
     </main>
   )
 }
