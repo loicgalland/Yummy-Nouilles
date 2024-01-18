@@ -10,22 +10,22 @@ import PhotoSocial from "../assets/data/photoSocial.json"
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-24">
+    <main className="flex flex-col lg:gap-24 w-full gap-12">
         <section>
-            <div className="flex items-center justify-center gap-20 mt-52">
-                <div className="flex flex-col gap-5">
-                    <h1 className="text-7xl uppercase font-bebas">Yummi Nouilles</h1>
-                    <span className="font-semibold text-lg mb-2">Les nouilles les plus <span className="text-orange-700">yummy</span> de tout Paris</span>
+            <div className="flex items-center justify-center gap-20 lg:mt-52 mt-12 flex-col lg:flex-row">
+                <div className="flex flex-col gap-5 lg:text-left text-center">
+                    <h1 className="lg:text-7xl uppercase font-bebas text-5xl ">Yummi Nouilles</h1>
+                    <span className="font-semibold text-xl mb-2 max-w-80">Les nouilles les plus <span className="text-orange-700">yummy</span> de tout Paris</span>
                     <Cta text="Click & Collect"></Cta>
                 </div>
                 <div>
-                    <Image src={Logo} alt="Yummi-Nouilles-Logo"/>
+                    <Image src={Logo} alt="Yummi-Nouilles-Logo" className="w-60 lg:w-80"/>
                 </div>
             </div>
         </section>
        <section>
            <h2 className="underline decoration-orange-700 decoration-2 underline-offset-4 font-bebas text-2xl text-center mb-10">Nos adresses</h2>
-           <div className="flex justify-center gap-28">
+           <div className="flex justify-center lg:gap-28 flex-col lg:flex-row items-center gap-16">
                {Restaurants && Restaurants.map((restaurant, index) => {
                    return(
                        <div key={index}>

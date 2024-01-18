@@ -23,10 +23,10 @@ const icons = [
 import Image from "next/image";
 export default function Footer(){
     return(
-        <footer className="flex w-full justify-end text-white bg-black h-44 items-center px-5 gap-5">
+        <footer className="flex w-full lg:justify-end justify-center text-white bg-black h-44 items-center px-5 gap-8">
             {icons.map((icon) =>{
                 return (
-                    <a href={icon.link}><Image alt={icon.name} src={icon.image} className="w-5" target="_blank"/></a>
+                    <a href={icon.link}><Image alt={icon.name} src={icon.image} className="lg:w-5 w-10" target="_blank"/></a>
                 )
             })}
         </footer>
