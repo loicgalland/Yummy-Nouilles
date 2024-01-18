@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Entrées",
+    "meals": [
+      "Jiazo faits maison végétariens",
+      "Tofu frit",
+      "Xialonbao à la truffe"
+    ]
+  },
+  {
+    "title": "Plats",
+    "meals": [
+      "Biang biang mian végétariens",
+      "Soupe de nouilles au boeuf",
+      "Nouilles froides au sésame"
+    ]
+  },
+  {
+    "title": "Desserts",
+    "meals": [
+      "Pudding au tofu"
+    ]
+  },
+  {
+    "title": "Boissons",
+    "meals": [
+      "Taiwan beer",
+      "Bubble Tea à la mûre",
+      "Thé Oolong"
+    ]
+  }
+]

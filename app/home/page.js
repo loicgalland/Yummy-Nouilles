@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import Banner from "@/app/components/Banner";
 import Cta from "@/app/components/Cta";
-import Footer from "@/app/components/Footer";
+import Contact from "@/app/components/Contact";
 
 import Logo from "../assets/images/Logo XL.png";
 import Restaurants from "../assets/data/restaurants.json"
@@ -24,7 +24,7 @@ export default function Home() {
             </div>
         </section>
        <section>
-           <h2 className="underline decoration-orange-700 decoration-2 underline-offset-4 font-bebas text-2xl text-center mb-10">Nos adresses</h2>
+           <h2 className="font-bebas text-5xl text-center mb-10">Nos adresses</h2>
            <div className="flex justify-center lg:gap-28 flex-col lg:flex-row items-center gap-16">
                {Restaurants && Restaurants.map((restaurant, index) => {
                    return(
@@ -40,9 +40,9 @@ export default function Home() {
        </section>
         <Banner/>
         <section className="px-10 text-center">
-            <h2 className="underline decoration-orange-700 decoration-2 underline-offset-4 font-bebas text-2xl text-center mb-10">
+            <h3 className="underline decoration-orange-700 decoration-2 underline-offset-4 font-bebas text-2xl text-center mb-10">
                 Notre Savoir-faire
-            </h2>
+            </h3>
             <p className="font-medium">
                 Depuis près de 10 ans maintenant, nous partageons avec vous les meilleures recettes. Nos plats ont tous été
                 conçus, et affinés au fil des années et des goûts. Nous vous apportons le meilleur de l’Asie de l’Est en plein coeur de
@@ -51,9 +51,9 @@ export default function Home() {
             </p>
         </section>
         <section className="flex flex-col items-center">
-            <h2 className="underline decoration-orange-700 decoration-2 underline-offset-4 font-bebas text-2xl text-center mb-10">
+            <h3 className="underline decoration-orange-700 decoration-2 underline-offset-4 font-bebas text-2xl text-center mb-10">
                 Retrouvez nous sur les réseaux Sociaux
-            </h2>
+            </h3>
             <div className="flex gap-16 flex-wrap max-w-6xl justify-center">
                 {
                     PhotoSocial && PhotoSocial.map(photo => {
@@ -63,18 +63,8 @@ export default function Home() {
                     })
                 }
             </div>
-
         </section>
-        <section className="px-10 text-center">
-            <h2 className="underline decoration-orange-700 decoration-2 underline-offset-4 font-bebas text-2xl text-center mb-10">
-                Contactez-nous
-            </h2>
-            <p className="font-medium">
-                Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br/>
-                Écrivez-nous à <strong className="hover:cursor-pointer"><a href="mailto:yummy@noodles.fr">yummy@noodles.fr</a></strong> ou appelez nous au <strong>01 13 86 23 42</strong>
-            </p>
-        </section>
-        <Footer></Footer>
+        <Contact/>
     </main>
   )
 }
